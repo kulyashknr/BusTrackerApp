@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C405ED127A6FF8B389F7A2 /* Pods_BusTracker_BusTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3E1AD638D5DC00E50BE6F2 /* Pods_BusTracker_BusTrackerUITests.framework */; };
+		32033676244F021E00A59AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32033675244F021E00A59AEF /* AppDelegate.swift */; };
+		32033678244F021E00A59AEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32033677244F021E00A59AEF /* SceneDelegate.swift */; };
+		3203367A244F021E00A59AEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32033679244F021E00A59AEF /* ViewController.swift */; };
+		3203367D244F021E00A59AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3203367B244F021E00A59AEF /* Main.storyboard */; };
+		3203367F244F022100A59AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3203367E244F022100A59AEF /* Assets.xcassets */; };
+		32033682244F022100A59AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32033680244F022100A59AEF /* LaunchScreen.storyboard */; };
+		3203368D244F022100A59AEF /* BusTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3203368C244F022100A59AEF /* BusTrackerUITests.swift */; };
+		3203369A244F7AE400A59AEF /* StopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32033699244F7AE400A59AEF /* StopViewController.swift */; };
+		3209E7BC2473D90600994D12 /* BusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3209E7BB2473D90600994D12 /* BusTableViewCell.swift */; };
+		32630789246BFA5E00D0575A /* Pods_BusTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5647023E5F933F628EAB4459 /* Pods_BusTracker.framework */; };
+		3263078D246BFA6D00D0575A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3263078C246BFA6D00D0575A /* Alamofire.framework */; };
+		32BE05F42469560F0035ECAA /* allStops.json in Resources */ = {isa = PBXBuildFile; fileRef = 32BE05F32469560F0035ECAA /* allStops.json */; };
+		32EBA973247583EE00DDA513 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA972247583EE00DDA513 /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32033689244F022100A59AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3203366A244F021E00A59AEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32033671244F021E00A59AEF;
+			remoteInfo = BusTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A209928DB211035B235B59F /* Pods-BusTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusTracker.debug.xcconfig"; path = "Target Support Files/Pods-BusTracker/Pods-BusTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		32033672244F021E00A59AEF /* BusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32033675244F021E00A59AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32033677244F021E00A59AEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32033679244F021E00A59AEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3203367C244F021E00A59AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3203367E244F022100A59AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32033681244F022100A59AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32033683244F022100A59AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32033688244F022100A59AEF /* BusTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3203368C244F022100A59AEF /* BusTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTrackerUITests.swift; sourceTree = "<group>"; };
+		3203368E244F022100A59AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32033699244F7AE400A59AEF /* StopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopViewController.swift; sourceTree = "<group>"; };
+		3209E7BB2473D90600994D12 /* BusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTableViewCell.swift; sourceTree = "<group>"; };
+		3263078C246BFA6D00D0575A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BE05F32469560F0035ECAA /* allStops.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = allStops.json; sourceTree = "<group>"; };
+		32EBA972247583EE00DDA513 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3A40B349F673E7D80F71EC58 /* Pods-BusTracker-BusTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusTracker-BusTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-BusTracker-BusTrackerUITests/Pods-BusTracker-BusTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		473AE9D7B1FC68C4CA589E8D /* Pods-BusTracker-BusTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusTracker-BusTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-BusTracker-BusTrackerUITests/Pods-BusTracker-BusTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5647023E5F933F628EAB4459 /* Pods_BusTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3E1AD638D5DC00E50BE6F2 /* Pods_BusTracker_BusTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusTracker_BusTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08E957A37281D887946E5B8 /* Pods-BusTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusTracker.release.xcconfig"; path = "Target Support Files/Pods-BusTracker/Pods-BusTracker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3203366F244F021E00A59AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32630789246BFA5E00D0575A /* Pods_BusTracker.framework in Frameworks */,
+				3263078D246BFA6D00D0575A /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32033685244F022100A59AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C405ED127A6FF8B389F7A2 /* Pods_BusTracker_BusTrackerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		239051919FB8095B4BDCA0CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A209928DB211035B235B59F /* Pods-BusTracker.debug.xcconfig */,
+				C08E957A37281D887946E5B8 /* Pods-BusTracker.release.xcconfig */,
+				3A40B349F673E7D80F71EC58 /* Pods-BusTracker-BusTrackerUITests.debug.xcconfig */,
+				473AE9D7B1FC68C4CA589E8D /* Pods-BusTracker-BusTrackerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		32033669244F021E00A59AEF = {
+			isa = PBXGroup;
+			children = (
+				32033674244F021E00A59AEF /* BusTracker */,
+				3203368B244F022100A59AEF /* BusTrackerUITests */,
+				32033673244F021E00A59AEF /* Products */,
+				239051919FB8095B4BDCA0CD /* Pods */,
+				4F4A620F17FF44FC112DFA9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32033673244F021E00A59AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32033672244F021E00A59AEF /* BusTracker.app */,
+				32033688244F022100A59AEF /* BusTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32033674244F021E00A59AEF /* BusTracker */ = {
+			isa = PBXGroup;
+			children = (
+				32033675244F021E00A59AEF /* AppDelegate.swift */,
+				32033677244F021E00A59AEF /* SceneDelegate.swift */,
+				3203367B244F021E00A59AEF /* Main.storyboard */,
+				3203367E244F022100A59AEF /* Assets.xcassets */,
+				32033680244F022100A59AEF /* LaunchScreen.storyboard */,
+				32033683244F022100A59AEF /* Info.plist */,
+				32033679244F021E00A59AEF /* ViewController.swift */,
+				32033699244F7AE400A59AEF /* StopViewController.swift */,
+				3209E7BB2473D90600994D12 /* BusTableViewCell.swift */,
+				32BE05F32469560F0035ECAA /* allStops.json */,
+				32EBA972247583EE00DDA513 /* MapViewController.swift */,
+			);
+			path = BusTracker;
+			sourceTree = "<group>";
+		};
+		3203368B244F022100A59AEF /* BusTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3203368C244F022100A59AEF /* BusTrackerUITests.swift */,
+				3203368E244F022100A59AEF /* Info.plist */,
+			);
+			path = BusTrackerUITests;
+			sourceTree = "<group>";
+		};
+		4F4A620F17FF44FC112DFA9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3263078C246BFA6D00D0575A /* Alamofire.framework */,
+				5647023E5F933F628EAB4459 /* Pods_BusTracker.framework */,
+				5D3E1AD638D5DC00E50BE6F2 /* Pods_BusTracker_BusTrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32033671244F021E00A59AEF /* BusTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32033691244F022100A59AEF /* Build configuration list for PBXNativeTarget "BusTracker" */;
+			buildPhases = (
+				925C72B3DE1E1787B82BF673 /* [CP] Check Pods Manifest.lock */,
+				3203366E244F021E00A59AEF /* Sources */,
+				3203366F244F021E00A59AEF /* Frameworks */,
+				32033670244F021E00A59AEF /* Resources */,
+				ABB7B9EA836AF3DC6F7D5009 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusTracker;
+			productName = BusTracker;
+			productReference = 32033672244F021E00A59AEF /* BusTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32033687244F022100A59AEF /* BusTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32033694244F022100A59AEF /* Build configuration list for PBXNativeTarget "BusTrackerUITests" */;
+			buildPhases = (
+				7124FCD3E06D5415AC35E49F /* [CP] Check Pods Manifest.lock */,
+				32033684244F022100A59AEF /* Sources */,
+				32033685244F022100A59AEF /* Frameworks */,
+				32033686244F022100A59AEF /* Resources */,
+				232E2663C070A5E9844BC8DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3203368A244F022100A59AEF /* PBXTargetDependency */,
+			);
+			name = BusTrackerUITests;
+			productName = BusTrackerUITests;
+			productReference = 32033688244F022100A59AEF /* BusTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3203366A244F021E00A59AEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kulyash Konyrova";
+				TargetAttributes = {
+					32033671244F021E00A59AEF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					32033687244F022100A59AEF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 32033671244F021E00A59AEF;
+					};
+				};
+			};
+			buildConfigurationList = 3203366D244F021E00A59AEF /* Build configuration list for PBXProject "BusTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32033669244F021E00A59AEF;
+			productRefGroup = 32033673244F021E00A59AEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32033671244F021E00A59AEF /* BusTracker */,
+				32033687244F022100A59AEF /* BusTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32033670244F021E00A59AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32033682244F022100A59AEF /* LaunchScreen.storyboard in Resources */,
+				3203367F244F022100A59AEF /* Assets.xcassets in Resources */,
+				3203367D244F021E00A59AEF /* Main.storyboard in Resources */,
+				32BE05F42469560F0035ECAA /* allStops.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32033686244F022100A59AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		232E2663C070A5E9844BC8DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusTracker-BusTrackerUITests/Pods-BusTracker-BusTrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusTracker-BusTrackerUITests/Pods-BusTracker-BusTrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BusTracker-BusTrackerUITests/Pods-BusTracker-BusTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7124FCD3E06D5415AC35E49F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusTracker-BusTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		925C72B3DE1E1787B82BF673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB7B9EA836AF3DC6F7D5009 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusTracker/Pods-BusTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusTracker/Pods-BusTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BusTracker/Pods-BusTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3203366E244F021E00A59AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3203367A244F021E00A59AEF /* ViewController.swift in Sources */,
+				32EBA973247583EE00DDA513 /* MapViewController.swift in Sources */,
+				3209E7BC2473D90600994D12 /* BusTableViewCell.swift in Sources */,
+				3203369A244F7AE400A59AEF /* StopViewController.swift in Sources */,
+				32033676244F021E00A59AEF /* AppDelegate.swift in Sources */,
+				32033678244F021E00A59AEF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32033684244F022100A59AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3203368D244F022100A59AEF /* BusTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3203368A244F022100A59AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32033671244F021E00A59AEF /* BusTracker */;
+			targetProxy = 32033689244F022100A59AEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3203367B244F021E00A59AEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3203367C244F021E00A59AEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32033680244F022100A59AEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32033681244F022100A59AEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3203368F244F022100A59AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32033690244F022100A59AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32033692244F022100A59AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A209928DB211035B235B59F /* Pods-BusTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ7ZM8HD9Z;
+				INFOPLIST_FILE = BusTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = konyrova.BusTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32033693244F022100A59AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08E957A37281D887946E5B8 /* Pods-BusTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ7ZM8HD9Z;
+				INFOPLIST_FILE = BusTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = konyrova.BusTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32033695244F022100A59AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A40B349F673E7D80F71EC58 /* Pods-BusTracker-BusTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ7ZM8HD9Z;
+				INFOPLIST_FILE = BusTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = konyrova.BusTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BusTracker;
+			};
+			name = Debug;
+		};
+		32033696244F022100A59AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473AE9D7B1FC68C4CA589E8D /* Pods-BusTracker-BusTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ7ZM8HD9Z;
+				INFOPLIST_FILE = BusTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = konyrova.BusTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BusTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3203366D244F021E00A59AEF /* Build configuration list for PBXProject "BusTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3203368F244F022100A59AEF /* Debug */,
+				32033690244F022100A59AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32033691244F022100A59AEF /* Build configuration list for PBXNativeTarget "BusTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32033692244F022100A59AEF /* Debug */,
+				32033693244F022100A59AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32033694244F022100A59AEF /* Build configuration list for PBXNativeTarget "BusTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32033695244F022100A59AEF /* Debug */,
+				32033696244F022100A59AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3203366A244F021E00A59AEF /* Project object */;
+}
